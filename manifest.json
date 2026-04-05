@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Vortex Pro: Ultimate Balance",
+  "version": "4.0.0",
+  "description": "Total ad-blocking for the entire web, with hyper-smooth surgical skipping for YouTube. Elegant, minimal, and indestructible.",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "tabs",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon.png"
+    }
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "vortex_shield_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "128": "icons/icon.png"
+  }
+}

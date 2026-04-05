@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex Pro: Modern Vintage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="app-shell">
+        <!-- Header: Minimal & Modern -->
+        <header class="main-header">
+            <div class="logo-area">
+                <h1 class="logo-text">Vortex</h1>
+                <span class="badge-pro">PRO</span>
+            </div>
+            <div class="status-pill" id="statusPill">
+                <div class="pulse-dot"></div>
+                <span id="statusText">Shield Active</span>
+            </div>
+        </header>
+
+        <!-- Main Stats: Clean Typography -->
+        <main class="content-area">
+            <div class="stat-hero">
+                <p class="stat-label">Total Blocked</p>
+                <h2 id="totalCount" class="counter-display">0</h2>
+                <div class="site-bar">
+                    <span class="globe">🌐</span>
+                    <span id="currentDomain">Optimizing Browsing</span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Controls: Functional Modernity -->
+        <section class="controls-grid">
+            <div class="toggle-card">
+                <div class="card-info">
+                    <h3>Protection</h3>
+                    <p>Network & Visual</p>
+                </div>
+                <div class="modern-switch">
+                    <input type="checkbox" id="vortexSwitch" checked>
+                    <label for="vortexSwitch"></label>
+                </div>
+            </div>
+
+            <div class="action-row">
+                <button class="action-link" id="whitelistBtn">Whitelist</button>
+                <button class="action-link" id="reportBtn">Report</button>
+            </div>
+        </section>
+
+        <!-- Footer: Elegant Minimalist -->
+        <footer class="main-footer">
+            <div class="footer-note">
+                <span class="brand">By Diaww</span>
+                <span class="dot">•</span>
+                <span class="tech">Quantum Edition</span>
+            </div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
