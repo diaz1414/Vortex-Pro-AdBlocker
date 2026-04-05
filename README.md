@@ -11,7 +11,7 @@
 ### 🎥 Video Tutorial
 Need help with the installation? Watch the guide below:
 
-<video src="tutorial.mp4" width="100%" controls></video>
+[<video src="tutorial.mp4" width="100%" controls></video>](https://github.com/user-attachments/assets/5f71552b-e0f4-4578-b3b7-076c67d2abac)
 
 ### ✨ Key Features
 - **🌍 Universal Web Shield**: Blocks 50+ major ad networks. Removes banners, popups, and overlays from streaming sites (e.g., IDLIX).
@@ -33,7 +33,7 @@ Need help with the installation? Watch the guide below:
 ### 🎥 Video Tutorial
 Butuh bantuan instalasi? Lihat panduannya di bawah ini:
 
-<video src="tutorial.mp4" width="100%" controls></video>
+[<video src="tutorial.mp4" width="100%" controls></video>](https://github.com/user-attachments/assets/5f71552b-e0f4-4578-b3b7-076c67d2abac)
 
 ### ✨ Fitur Unggulan
 - **🌍 Perisai Web Universal**: Memblokir 50+ jaringan iklan besar. Menghapus banner, popup, dan overlay di situs streaming (seperti IDLIX).
