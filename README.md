@@ -11,7 +11,7 @@
 ### 🎥 Video Tutorial
 Need help with the installation? Watch the guide below:
 
-![Tutorial Video](tutorial.mp4)
+<video src="tutorial.mp4" width="100%" controls></video>
 
 ### ✨ Key Features
 - **🌍 Universal Web Shield**: Blocks 50+ major ad networks. Removes banners, popups, and overlays from streaming sites (e.g., IDLIX).
@@ -24,11 +24,6 @@ Need help with the installation? Watch the guide below:
 3. Enable **Developer Mode**.
 4. Click **Load Unpacked** and select this folder.
 
-### 🛠️ Tech Stack
-- **Engine**: Manifest V3 + DeclarativeNetRequest API.
-- **Logic**: Vanilla JavaScript + MutationObservers.
-- **UI**: Modern-Vintage Typography (Inter & Playfair Display).
-
 ---
 
 ## Bahasa Indonesia
@@ -38,7 +33,7 @@ Need help with the installation? Watch the guide below:
 ### 🎥 Video Tutorial
 Butuh bantuan instalasi? Lihat panduannya di bawah ini:
 
-![Video Tutorial](tutorial.mp4)
+<video src="tutorial.mp4" width="100%" controls></video>
 
 ### ✨ Fitur Unggulan
 - **🌍 Perisai Web Universal**: Memblokir 50+ jaringan iklan besar. Menghapus banner, popup, dan overlay di situs streaming (seperti IDLIX).
@@ -50,11 +45,6 @@ Butuh bantuan instalasi? Lihat panduannya di bawah ini:
 2. Buka **Google Chrome** dan pergi ke `chrome://extensions/`.
 3. Aktifkan **Developer Mode** (tombol di pojok kanan atas).
 4. Klik **Load Unpacked** dan pilih folder proyek ini.
-
-### 🛠️ Teknologi yang Digunakan
-- **Engine**: Manifest V3 + DeclarativeNetRequest API.
-- **Logic**: Vanilla JavaScript + MutationObservers.
-- **UI**: Tipografi Modern-Vintage (Inter & Playfair Display).
 
 ---
 
